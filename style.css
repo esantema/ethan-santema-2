@@ -1,0 +1,153 @@
+
+h2{
+	color: white; 
+	background-color: black; 
+  border-radius: 50px;  
+  font-family: 'Lobster'. none; 
+  text-align: center; 
+  display: block; 
+  
+}   
+
+h3{ 
+  color: white;
+ }
+
+ head{ 
+  background-color: #E64D2c;
+  } 
+
+  header{ 
+    text-align: center;
+   }
+
+body{
+  background-color:#FFA895;
+ font-family: "Merriweather",sans-serif;
+ font-size: 20px; 
+ margin: 10px 0; 
+}   
+
+main{ 
+  display: inline; 
+  max-width: 100%;
+ }  
+
+
+ p{ 
+  font-size: 25px; 
+  color: white;
+  }
+
+hr{ 
+  display: block; 
+  border-style: inset; 
+  border-width: 3px;
+ }
+
+img{ 
+	border: 6px solid #D4482A; 
+	padding: 6px; 
+	margin: 20px;  
+	display: inline; 
+  background-color: #FFA895;
+ }  
+
+ .photo-1{ 
+    display: inline-block; 
+    text-align: center; 
+    position: center;
+  } 
+
+  .photo-2{ 
+    float:left;
+   }
+
+nav{  
+  text-align: center; 
+ }
+
+ nav ul{  
+  padding: 10px; 
+  text-align: center; 
+  display: inline; 
+  }  
+
+nav li{ 
+  display: inline; 
+  background-color: black; 
+  padding: 10px 12px; 
+  border-radius: 50px; 
+  text-align: center;  
+  color: white;
+ }
+
+li{ 
+  color: white;
+ }
+
+ nav a:link{ 
+ 	color:white; 
+  } 
+
+  nav a:visited{ 
+  	color: white;
+   } 
+
+ nav a:hover{ 
+ 	color: orange;
+  } 
+
+  nav a:active{ 
+  	color:red;
+   } 
+
+h1 { 
+	font-size: 3em; 
+  font-family: 'Lobster'. none;
+ }   
+
+ i.fa{ 
+    color: black; 
+    font-size: 3em; 
+  }
+
+ input{ 
+ 	background-color: #eeeeee; 
+ 	height: 20px; 
+ 	border-radius: 5px; 
+  } 
+
+  input[type=submit]{ 
+  background-color:red;
+   } 
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+ 
+/* CSS for Tablets */ 
+@media only screen and (max-width: 1024 px) { 
+h1 { 
+	font-size: 1.5em;
+ }
+ }
+
+/* CSS for Smartphones */ 
+@media only screen and (max-width: 768 px) { 
+h1 { 
+	font-size: 1.5em;
+ }
+ } 
+
+.mobile{ 
+	display:none;
+ } 
+
+ @media only screen and (max-width:400px) { 
+.desktop{ 
+	display:none;
+  } 
+  .mobile{ 
+  	display:block;
+   }
+}
